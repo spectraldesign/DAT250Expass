@@ -35,3 +35,7 @@ which effectively was the same issue as the one I encountered when attempting to
 
 The link to the deployed heroku sample application is: <br> https://calm-spire-25805.herokuapp.com/ 
 <br> (I let it randomly select a name for the app because I was curious what it would create)
+
+
+## Final note:
+Just in case the random name on this GitHub account causes any confusion, this repo does in fact belong to Skjalg Eide Hodneland, I'd rather not create another GitHub account so I'm using my personal GitHub. If this is an issue, please let me know and I will change to using a GitHub with my name as the username.
