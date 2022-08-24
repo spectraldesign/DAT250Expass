@@ -20,7 +20,11 @@ I skipped the Provision Add-ons step, as the github repo for the task specified 
 Using the database caused the first of my few issues, the following error popped up instead of the intended database interface:
 
 ```powershell
-C:\Users\skjal\OneDrive\Dokumenter\GitHub\java-getting-started>heroku pg:psql                                                --> Connecting to postgresql-spherical-91355                                                                            psql: error: connection to server at "ec2-3-223-242-224.compute-1.amazonaws.com" (3.223.242.224), port 5432 failed: Connection timed out (0x0000274C/10060)                                                                                             Is the server running on that host and accepting TCP/IP connections?                                             !    psql exited with code 2
+C:\Users\skjal\OneDrive\Dokumenter\GitHub\java-getting-started>heroku pg:psql                                                
+--> Connecting to postgresql-spherical-91355                                                                           
+psql: error: connection to server at "ec2-3-223-242-224.compute-1.amazonaws.com" (3.223.242.224), port 5432 failed: Connection timed out (0x0000274C/10060)
+Is the server running on that host and accepting TCP/IP connections?
+!    psql exited with code 2
 ```
 My initial theory was that this was related to firewall settings while at HVL, which turned out to be the case as I could connect just fine when I tried at UiB as well as at home.
 
