@@ -7,6 +7,6 @@ It also took a bit of time to get back into the swing of Java programming, speci
 The public GitHub repo with the code can be found [here](https://github.com/spectraldesign/dat250-jpa-example). 
 
 # Inspecting the database
-To inspect the database I used the built in Database tab in IntelliJ, see Technical Problems above for issues I had in regards to this. After sorting out the issues I simply followed the tutorial provided and added the derby database with username = test and password = test, and the path being the path to the database, in my case C:/Users/Skjalg/IdeaProjects/dat250-jpa-example/db/experiment2. I had to hit refresh (or ctrl+f5) to refresh the database for the contents to show up in the hiararchy. Right-clicking the database "experiment2" and selecting Diagrams -> Show visualization allowed me to inspect the contents of the database in schema form. 
+To inspect the database I used the built in Database tab in IntelliJ, see Technical Problems above for issues I had in regards to this. After sorting out the issues I simply followed the tutorial provided and added the derby database with username = test and password = test, and the path being the path to the database, in my case C:/Users/Skjalg/IdeaProjects/dat250-jpa-example/db/experiment2. I had to hit refresh (or ctrl+f5) to refresh the database for the contents to show up in the hierarchy. Right-clicking the database "experiment2" and selecting Diagrams -> Show visualization allowed me to inspect the contents of the database in schema form. 
 Visualization:
 !["DB"](./database.png "DB")
