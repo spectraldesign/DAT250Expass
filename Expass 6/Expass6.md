@@ -3,8 +3,11 @@ The first major issue I encountered during this assingment was getting rid of th
 After fixing this issue I struggled a bit with getting the form to create a new Todo to work properly, but I got this sorted in the end.
 
 # Link to code
-The Angular code can be found in ./spa, here is the [direct link](). 
-The code for Expass4, which was used for the API can be found [here]().
+The code for Experiment 1 can be found in ./Experiment 1, here is the [link](https://github.com/spectraldesign/DAT250Expass/tree/main/Expass%206/Experiment%201)
+
+The Angular code can be found in ./Experiment 2/spa, here is the [link](https://github.com/spectraldesign/DAT250Expass/tree/main/Expass%206/Experiment%202/spa). 
+
+The code for Expass4, which was used for the API can be found [here](https://github.com/spectraldesign/dat250-sparkjava-counter).
 
 # Pending Issues
 Getting a basic understanding of Angular and getting it to work with the Todo API took longer than expected so I did not have time to do the optional Experiment 3.
