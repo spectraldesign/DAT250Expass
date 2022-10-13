@@ -1,0 +1,27 @@
+<h1>Todo List:</h1>
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Summary</th>
+        <th>Description</th>
+        <th>Delete</th>
+    </tr>
+    <tbody *ngFor="let todo of todos">
+        <tr>
+            <td>{{todo.id}}</td>
+            <td>{{todo.summary}}</td>
+            <td>{{todo.description}}</td>
+            <td><button class="deleteButton" (click)="deleteOne(todo)">DELETE TODO</button></td>
+        </tr>
+    </tbody>
+</table>
+<button class="refreshButton" (click)="getTodos()">Refresh</button>
+
+<h2>Create Todo</h2>
+<form class="form">
+    <label for="sum">Summary:</label><br>
+    <input class="inputClass" type="text" id="summary" name="summary" #summary><br>
+    <label for="desc">Description:</label><br>
+    <input class="inputClass" type="text" id="description" name="description" #description><br>
+    <button class="button" type="button" (click)="addOne(summary.value, description.value)">Add</button>
+</form>

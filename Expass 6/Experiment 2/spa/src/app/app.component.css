@@ -1,0 +1,67 @@
+.refreshButton{
+    background-color: #228b26;
+    border: 0px;
+    border-radius: 8px;
+    color: white;
+    margin-top: 10px;
+    padding: 5px 20px;
+    text-align: center;
+    font-size: 16px;
+}
+.refreshButton:hover{
+    background-color: #429b45;
+}
+.refreshButton:active{
+    background-color: #156418;
+}
+
+.deleteButton{
+    background-color: #8b223c;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 16px;
+}
+.deleteButton:hover{
+    background-color: #992d48;
+}
+.deleteButton:active{
+    background-color: #74152d;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 40%;
+    text-align: center;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.inputClass{
+    background-color: #202227;
+    border: 1px solid white;
+    color: white;
+    height: 30px;
+    width: 150px;
+    margin-bottom: 10px;
+    outline: 0px;
+}
+.inputClass:focus{
+    background-color: #202227;
+    border: 1px solid white;
+    color: white;
+    outline: 1px solid white;
+}
+
